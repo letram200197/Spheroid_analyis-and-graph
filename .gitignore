@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Your own measurements: keep private data out of the repo
+data/
+
+# Results written next to input files by the script (the bundled example outputs are kept)
+*_spheroid_analysis_*
+!examples/output/*
